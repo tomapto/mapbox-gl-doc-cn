@@ -16,3 +16,38 @@
 |-index.html    首页文档
 |-README.md     说明文档
 ```
+
+## 获取翻译项目
+```bash
+$ git clone https://github.com/garyhan/mapbox-gl-js-cn
+$ cd mapbox-gl-js-cn
+```
+
+## 开始说明
+1. 如果不是当前版本的翻译请前往 mapbox-gl-js-cn/_config.yml中修改
+```
+baseurl: /mapbox-gl-doc-cn/v+[版本号]/cn
+mapboxglbase: /mapbox-gl-doc-cn/v+[版本号]/cn/dist
+```
+
+2. 翻译API前往 mapbox-gl-js-cn/src下进行
+    > 注意:请不要修改js文件名 以及@开头的参数
+
+3. 翻译 style-spec 前往 mapbox-gl-js-cn/src/style-spec/reference/latest.js 中查找对应的json文件
+
+4. 翻译 examples前往  mapbox-gl-js-cn/docs/_post/examples 下翻译每个文件即可
+
+5. 翻译plugs 前往 mapbox-gl-js-cn/docs/_data/plugins.yml 中进行翻译文件
+
+## 翻译
+1. 打开要翻译的文件找到文件对应的 注释
+2. 将注释替换为中文内容
+3. 保存注释 
+运行代码
+
+```bash
+$ npm run start-docs
+```
+
+运行完成后 浏览器中打开命令行中提示的路径
+格式为: http://127.0.0.1:4000/mapbox-gl-js-cn/版本/
