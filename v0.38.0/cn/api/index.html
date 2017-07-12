@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='apple-mobile-web-app-capable' content='yes'/>
-    <link rel='shortcut icon' href='/MapAPI/cn/v0.38.0/favicon.ico' type='image/x-icon'/>
+    <link rel='shortcut icon' href='/mapbox-gl-doc-cn/v0.38.0/cn/favicon.ico' type='image/x-icon'/>
     <meta name='p:domain_verify' content='57838af58c8045c2c024bc2f9d1577f9'/>
     <meta name='twitter:site' content='@Mapbox'/>
     <meta property='og:site_name' content='Mapbox'/>
@@ -35,7 +35,7 @@
         href='https://www.mapbox.com/base/latest/base.css?v1.0'
         rel='stylesheet'/>
     
-    <link href='/MapAPI/cn/v0.38.0/css/site.css' rel='stylesheet'/>
+    <link href='/mapbox-gl-doc-cn/v0.38.0/cn/css/site.css' rel='stylesheet'/>
     <link rel='alternate' type='application/rss+xml' title='RSS' href='https://www.mapbox.com/blog/blog.rss'/>
 
     
@@ -1530,7 +1530,7 @@
                                     </div>
                                     <div id="language_cn" style="display: none;"
                                          class="flex-child opacity75 mx6 mx12-ml mx18-mxl"><a
-                                        href="/MapAPI/cn/v0.38.0/cn/"
+                                        href="/mapbox-gl-doc-cn/v0.38.0/cn/cn/"
                                         class="block txt-s txt-ms-ml txt-bold link link--white"
                                         aria-label="pricing">中文</a>
                                     </div>
@@ -2335,33 +2335,21 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:sourcedataloading'
+                                        href='#map.event:touchmove'
                                         class='block small truncate pre-open'>
-                                    ⓔ sourcedataloading
+                                    ⓔ touchmove
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:contextmenu'
+                                        href='#map.event:touchcancel'
                                         class='block small truncate pre-open'>
-                                    ⓔ contextmenu
+                                    ⓔ touchcancel
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:touchstart'
+                                        href='#map.event:click'
                                         class='block small truncate pre-open'>
-                                    ⓔ touchstart
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:mouseup'
-                                        class='block small truncate pre-open'>
-                                    ⓔ mouseup
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:mousemove'
-                                        class='block small truncate pre-open'>
-                                    ⓔ mousemove
+                                    ⓔ click
                                 </a></li>
                                 
                                 <li><a
@@ -2371,15 +2359,9 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:touchmove'
+                                        href='#map.event:contextmenu'
                                         class='block small truncate pre-open'>
-                                    ⓔ touchmove
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:load'
-                                        class='block small truncate pre-open'>
-                                    ⓔ load
+                                    ⓔ contextmenu
                                 </a></li>
                                 
                                 <li><a
@@ -2413,39 +2395,9 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:mousedown'
-                                        class='block small truncate pre-open'>
-                                    ⓔ mousedown
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:mouseout'
-                                        class='block small truncate pre-open'>
-                                    ⓔ mouseout
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:render'
-                                        class='block small truncate pre-open'>
-                                    ⓔ render
-                                </a></li>
-                                
-                                <li><a
                                         href='#map.event:styledata'
                                         class='block small truncate pre-open'>
                                     ⓔ styledata
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:click'
-                                        class='block small truncate pre-open'>
-                                    ⓔ click
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:touchcancel'
-                                        class='block small truncate pre-open'>
-                                    ⓔ touchcancel
                                 </a></li>
                                 
                                 <li><a
@@ -2467,9 +2419,57 @@
                                 </a></li>
                                 
                                 <li><a
+                                        href='#map.event:sourcedataloading'
+                                        class='block small truncate pre-open'>
+                                    ⓔ sourcedataloading
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:render'
+                                        class='block small truncate pre-open'>
+                                    ⓔ render
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:mouseout'
+                                        class='block small truncate pre-open'>
+                                    ⓔ mouseout
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:mousedown'
+                                        class='block small truncate pre-open'>
+                                    ⓔ mousedown
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:mouseup'
+                                        class='block small truncate pre-open'>
+                                    ⓔ mouseup
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:mousemove'
+                                        class='block small truncate pre-open'>
+                                    ⓔ mousemove
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:touchstart'
+                                        class='block small truncate pre-open'>
+                                    ⓔ touchstart
+                                </a></li>
+                                
+                                <li><a
                                         href='#map.event:touchend'
                                         class='block small truncate pre-open'>
                                     ⓔ touchend
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:load'
+                                        class='block small truncate pre-open'>
+                                    ⓔ load
                                 </a></li>
                                 
                                 <li><a
@@ -2479,27 +2479,15 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:zoom'
-                                        class='block small truncate pre-open'>
-                                    ⓔ zoom
-                                </a></li>
-                                
-                                <li><a
                                         href='#map.event:zoomstart'
                                         class='block small truncate pre-open'>
                                     ⓔ zoomstart
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:boxzoomcancel'
+                                        href='#map.event:zoom'
                                         class='block small truncate pre-open'>
-                                    ⓔ boxzoomcancel
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:boxzoomend'
-                                        class='block small truncate pre-open'>
-                                    ⓔ boxzoomend
+                                    ⓔ zoom
                                 </a></li>
                                 
                                 <li><a
@@ -2509,15 +2497,15 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:rotateend'
+                                        href='#map.event:boxzoomend'
                                         class='block small truncate pre-open'>
-                                    ⓔ rotateend
+                                    ⓔ boxzoomend
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:rotate'
+                                        href='#map.event:boxzoomcancel'
                                         class='block small truncate pre-open'>
-                                    ⓔ rotate
+                                    ⓔ boxzoomcancel
                                 </a></li>
                                 
                                 <li><a
@@ -2527,15 +2515,21 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:dragstart'
+                                        href='#map.event:rotate'
                                         class='block small truncate pre-open'>
-                                    ⓔ dragstart
+                                    ⓔ rotate
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:drag'
+                                        href='#map.event:rotateend'
                                         class='block small truncate pre-open'>
-                                    ⓔ drag
+                                    ⓔ rotateend
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:dragstart'
+                                        class='block small truncate pre-open'>
+                                    ⓔ dragstart
                                 </a></li>
                                 
                                 <li><a
@@ -2545,21 +2539,27 @@
                                 </a></li>
                                 
                                 <li><a
+                                        href='#map.event:drag'
+                                        class='block small truncate pre-open'>
+                                    ⓔ drag
+                                </a></li>
+                                
+                                <li><a
                                         href='#map.event:pitchstart'
                                         class='block small truncate pre-open'>
                                     ⓔ pitchstart
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:pitchend'
-                                        class='block small truncate pre-open'>
-                                    ⓔ pitchend
-                                </a></li>
-                                
-                                <li><a
                                         href='#map.event:pitch'
                                         class='block small truncate pre-open'>
                                     ⓔ pitch
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:pitchend'
+                                        class='block small truncate pre-open'>
+                                    ⓔ pitchend
                                 </a></li>
                                 
                             </ul>
@@ -3655,10 +3655,10 @@
       </div>
     </div>
     <div class='col9 dark tabs mobile-cols pad1'><!--
-      --><a href='/MapAPI/cn/v0.38.0/api' class='col3 truncate active'>API</a><!--
-      --><a href='/MapAPI/cn/v0.38.0/style-spec' class='col3 truncate'>Style Specification</a><!--
-      --><a href='/MapAPI/cn/v0.38.0/examples' class='col3 truncate'>Examples</a><!--
-      --><a href='/MapAPI/cn/v0.38.0/plugins' class='col3 truncate'>Plugins</a>
+      --><a href='/mapbox-gl-doc-cn/v0.38.0/cn/api' class='col3 truncate active'>API</a><!--
+      --><a href='/mapbox-gl-doc-cn/v0.38.0/cn/style-spec' class='col3 truncate'>Style Specification</a><!--
+      --><a href='/mapbox-gl-doc-cn/v0.38.0/cn/examples' class='col3 truncate'>Examples</a><!--
+      --><a href='/mapbox-gl-doc-cn/v0.38.0/cn/plugins' class='col3 truncate'>Plugins</a>
     </div>
   </nav>
 </div>
@@ -3673,7 +3673,7 @@
                     <p class='space-bottom2 pad1y'>Mapbox GL JS is a JavaScript library that uses WebGL to render
                         interactive maps
                         from <a href='https://www.mapbox.com/help/define-vector-tiles'>vector tiles</a> and <a
-                                href='/MapAPI/cn/v0.38.0/style-spec'>Mapbox styles</a>.
+                                href='/mapbox-gl-doc-cn/v0.38.0/cn/style-spec'>Mapbox styles</a>.
                         It is part of the <a href='https://github.com/mapbox/mapbox-gl'>Mapbox GL ecosystem</a>, which
                         includes <a
                                 href='https://www.mapbox.com/mobile/'>Mapbox Mobile</a>, a compatible renderer written in C++ with
@@ -5740,7 +5740,7 @@ an array of the matching features.
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
             <span class='code strong strong truncate'>off</span>
-            <span class='quiet code space-right2'>(type, listener)</span>
+            <span class='quiet code space-right2'>(type, layer, listener)</span>
         </div>
       </div>
       <div class="clearfix hidden toggle-target">
@@ -5748,7 +5748,7 @@ an array of the matching features.
 
   
 
-  <p>Removes an event listener previously added with <code>Map#on</code>.</p>
+  <p>Removes an event listener for layer-specific events previously added with <code>Map#on</code>.</p>
 
 
   
@@ -5768,6 +5768,14 @@ an array of the matching features.
         <div class='space-bottom0'>
           <div>
             <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code> The event type previously used to install the listener.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code strong'>layer</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code> The layer ID previously used to install the listener.
 
           </div>
           
@@ -5817,7 +5825,7 @@ an array of the matching features.
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
             <span class='code strong strong truncate'>off</span>
-            <span class='quiet code space-right2'>(type, layer, listener)</span>
+            <span class='quiet code space-right2'>(type, listener)</span>
         </div>
       </div>
       <div class="clearfix hidden toggle-target">
@@ -5825,7 +5833,7 @@ an array of the matching features.
 
   
 
-  <p>Removes an event listener for layer-specific events previously added with <code>Map#on</code>.</p>
+  <p>Removes an event listener previously added with <code>Map#on</code>.</p>
 
 
   
@@ -5845,14 +5853,6 @@ an array of the matching features.
         <div class='space-bottom0'>
           <div>
             <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code> The event type previously used to install the listener.
-
-          </div>
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <div>
-            <span class='code strong'>layer</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code> The layer ID previously used to install the listener.
 
           </div>
           
@@ -10727,11 +10727,11 @@ map.flyTo({
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:sourcedataloading'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:sourcedataloading">
+    <div class='keyline-bottom' id='map.event:touchmove'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchmove">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>sourcedataloading</span>
+            <span class='code strong strong truncate'>touchmove</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -10740,9 +10740,7 @@ map.flyTo({
 
   
 
-  <p>Fired when one of the map's sources begins loading or changing asyncronously.
-All <code>sourcedataloading</code> events are followed by a <code>sourcedata</code> or <code>error</code> event.
-See <a href="#mapdataevent">MapDataEvent</a> for more information.</p>
+  <p>Fired when a touch point is moved within the map.</p>
 
 
   
@@ -10762,7 +10760,227 @@ See <a href="#mapdataevent">MapDataEvent</a> for more information.</p>
     <div>
       
         <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapdataevent">MapDataEvent</a>)</code>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:touchcancel'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchcancel">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>touchcancel</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a touch point has been disrupted.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:click'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:click">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>click</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a pointing device (usually a mouse) is pressed and released at the same point on the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/measure/">Measure distances</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/center-on-symbol/">Center the map on a clicked symbol</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:dblclick'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:dblclick">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>dblclick</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a pointing device (usually a mouse) is clicked twice at the same point on the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
           
           
         </div>
@@ -10865,450 +11083,6 @@ See <a href="#mapdataevent">MapDataEvent</a> for more information.</p>
 
   
 
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:touchstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchstart">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>touchstart</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a touch point is placed on the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:mouseup'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mouseup">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>mouseup</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a pointing device (usually a mouse) is released within the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures/">Highlight features within a bounding box</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/drag-a-point/">Create a draggable point</a></p>
-</li>
-    </ul>
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:mousemove'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mousemove">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>mousemove</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a pointing device (usually a mouse) is moved within the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/mouse-position/">Get coordinates of the mouse pointer</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/hover-styles/">Highlight features under the mouse pointer</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/popup-on-hover/">Display a popup on hover</a></p>
-</li>
-    </ul>
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:dblclick'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:dblclick">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>dblclick</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a pointing device (usually a mouse) is clicked twice at the same point on the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:touchmove'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchmove">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>touchmove</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a touch point is moved within the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:load'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:load">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>load</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired immediately after all necessary resources have been downloaded
-and the first visually complete rendering of the map has occurred.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/geojson-markers/">Draw GeoJSON points</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/live-geojson/">Add live realtime data</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-line/">Animate a point</a></p>
-</li>
-    </ul>
   
 </section>
 
@@ -11684,232 +11458,6 @@ for more information.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:mousedown'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mousedown">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>mousedown</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a pointing device (usually a mouse) is pressed within the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures/">Highlight features within a bounding box</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/drag-a-point/">Create a draggable point</a></p>
-</li>
-    </ul>
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:mouseout'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mouseout">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>mouseout</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a point device (usually a mouse) leaves the map's canvas.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/hover-styles/">Highlight features under the mouse pointer</a></p>
-</li>
-    </ul>
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:render'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:render">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>render</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired whenever the map is drawn to the screen, as the result of</p>
-<ul>
-<li>a change to the map's position, zoom, pitch, or bearing</li>
-<li>a change to the map's style</li>
-<li>a change to a GeoJSON source</li>
-<li>the loading of a vector tile, GeoJSON file, glyph, or sprite</li>
-</ul>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
     <div class='keyline-bottom' id='map.event:styledata'>
       <div class="clearfix small pointer toggle-sibling" data-href="#map.event:styledata">
         <div class="pad1y contain">
@@ -11945,155 +11493,6 @@ for more information.</p>
       
         <div class='space-bottom0'>
           <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapdataevent">MapDataEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:click'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:click">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>click</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a pointing device (usually a mouse) is pressed and released at the same point on the map.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Related</div>
-    <ul>
-      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/measure/">Measure distances</a></p>
-</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/center-on-symbol/">Center the map on a clicked symbol</a></p>
-</li>
-    </ul>
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:touchcancel'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchcancel">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>touchcancel</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a touch point has been disrupted.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
           
           
         </div>
@@ -12349,6 +11748,533 @@ or <code>error</code> event. See <a href="#mapdataevent">MapDataEvent</a> for mo
       </div>
     </div>
   
+    <div class='keyline-bottom' id='map.event:sourcedataloading'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:sourcedataloading">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>sourcedataloading</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when one of the map's sources begins loading or changing asyncronously.
+All <code>sourcedataloading</code> events are followed by a <code>sourcedata</code> or <code>error</code> event.
+See <a href="#mapdataevent">MapDataEvent</a> for more information.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapdataevent">MapDataEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:render'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:render">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>render</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired whenever the map is drawn to the screen, as the result of</p>
+<ul>
+<li>a change to the map's position, zoom, pitch, or bearing</li>
+<li>a change to the map's style</li>
+<li>a change to a GeoJSON source</li>
+<li>the loading of a vector tile, GeoJSON file, glyph, or sprite</li>
+</ul>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:mouseout'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mouseout">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>mouseout</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a point device (usually a mouse) leaves the map's canvas.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/hover-styles/">Highlight features under the mouse pointer</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:mousedown'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mousedown">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>mousedown</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a pointing device (usually a mouse) is pressed within the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures/">Highlight features within a bounding box</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/drag-a-point/">Create a draggable point</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:mouseup'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mouseup">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>mouseup</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a pointing device (usually a mouse) is released within the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures/">Highlight features within a bounding box</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/drag-a-point/">Create a draggable point</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:mousemove'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:mousemove">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>mousemove</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a pointing device (usually a mouse) is moved within the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#mapmouseevent">MapMouseEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/mouse-position/">Get coordinates of the mouse pointer</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/hover-styles/">Highlight features under the mouse pointer</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/popup-on-hover/">Display a popup on hover</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:touchstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchstart">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>touchstart</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a touch point is placed on the map.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>(<a href="#maptouchevent">MapTouchEvent</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
     <div class='keyline-bottom' id='map.event:touchend'>
       <div class="clearfix small pointer toggle-sibling" data-href="#map.event:touchend">
         <div class="pad1y contain">
@@ -12420,6 +12346,80 @@ or <code>error</code> event. See <a href="#mapdataevent">MapDataEvent</a> for mo
       </div>
     </div>
   
+    <div class='keyline-bottom' id='map.event:load'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:load">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>load</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired immediately after all necessary resources have been downloaded
+and the first visually complete rendering of the map has occurred.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>type</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>dataType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Related</div>
+    <ul>
+      <li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/geojson-markers/">Draw GeoJSON points</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/live-geojson/">Add live realtime data</a></p>
+</li><li><p><a href="https://www.mapbox.com/mapbox-gl-js/example/animate-point-along-line/">Animate a point</a></p>
+</li>
+    </ul>
+  
+</section>
+
+      </div>
+    </div>
+  
     <div class='keyline-bottom' id='map.event:zoomend'>
       <div class="clearfix small pointer toggle-sibling" data-href="#map.event:zoomend">
         <div class="pad1y contain">
@@ -12434,6 +12434,66 @@ or <code>error</code> event. See <a href="#mapdataevent">MapDataEvent</a> for mo
   
 
   <p>Fired just after the map completes a transition from one zoom level to another,
+as the result of either user interaction or methods such as <a href="#mapflyto">Map#flyTo</a>.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>((<a href="#mapmouseevent">MapMouseEvent</a> | <a href="#maptouchevent">MapTouchEvent</a>))</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:zoomstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:zoomstart">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>zoomstart</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired just before the map begins a transition from one zoom level to another,
 as the result of either user interaction or methods such as <a href="#mapflyto">Map#flyTo</a>.</p>
 
 
@@ -12546,11 +12606,11 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:zoomstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:zoomstart">
+    <div class='keyline-bottom' id='map.event:boxzoomstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomstart">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>zoomstart</span>
+            <span class='code strong strong truncate'>boxzoomstart</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12559,68 +12619,7 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
 
   
 
-  <p>Fired just before the map begins a transition from one zoom level to another,
-as the result of either user interaction or methods such as <a href="#mapflyto">Map#flyTo</a>.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>((<a href="#mapmouseevent">MapMouseEvent</a> | <a href="#maptouchevent">MapTouchEvent</a>))</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='map.event:boxzoomcancel'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomcancel">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>boxzoomcancel</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.
-See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
+  <p>Fired when a "box zoom" interaction starts. See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
 
   
@@ -12725,11 +12724,11 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:boxzoomstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomstart">
+    <div class='keyline-bottom' id='map.event:boxzoomcancel'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomcancel">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>boxzoomstart</span>
+            <span class='code strong strong truncate'>boxzoomcancel</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12738,7 +12737,8 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
   
 
-  <p>Fired when a "box zoom" interaction starts. See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
+  <p>Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.
+See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
 
   
@@ -12784,11 +12784,11 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:rotateend'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotateend">
+    <div class='keyline-bottom' id='map.event:rotatestart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotatestart">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>rotateend</span>
+            <span class='code strong strong truncate'>rotatestart</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12797,7 +12797,7 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
   
 
-  <p>Fired when a "drag to rotate" interaction ends. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
+  <p>Fired when a "drag to rotate" interaction starts. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
 
 
   
@@ -12902,11 +12902,11 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:rotatestart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotatestart">
+    <div class='keyline-bottom' id='map.event:rotateend'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotateend">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>rotatestart</span>
+            <span class='code strong strong truncate'>rotateend</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12915,7 +12915,7 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
   
 
-  <p>Fired when a "drag to rotate" interaction starts. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
+  <p>Fired when a "drag to rotate" interaction ends. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
 
 
   
@@ -13020,65 +13020,6 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:drag'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:drag">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>drag</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired repeatedly during a "drag to pan" interaction. See <a href="#dragpanhandler">DragPanHandler</a>.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>((<a href="#mapmouseevent">MapMouseEvent</a> | <a href="#maptouchevent">MapTouchEvent</a>))</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
     <div class='keyline-bottom' id='map.event:dragend'>
       <div class="clearfix small pointer toggle-sibling" data-href="#map.event:dragend">
         <div class="pad1y contain">
@@ -13113,6 +13054,65 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       
         <div class='space-bottom0'>
           <span class='code strong'>data</span> <code class='quiet'>({originalEvent: <a href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent">DragEvent</a>})</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:drag'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:drag">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>drag</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired repeatedly during a "drag to pan" interaction. See <a href="#dragpanhandler">DragPanHandler</a>.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>((<a href="#mapmouseevent">MapMouseEvent</a> | <a href="#maptouchevent">MapTouchEvent</a>))</code>
           
           
         </div>
@@ -13198,11 +13198,11 @@ the result of either user interaction or methods such as <a href="#mapflyto">Map
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:pitchend'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:pitchend">
+    <div class='keyline-bottom' id='map.event:pitch'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:pitch">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>pitchend</span>
+            <span class='code strong strong truncate'>pitch</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -13211,7 +13211,7 @@ the result of either user interaction or methods such as <a href="#mapflyto">Map
 
   
 
-  <p>Fired immediately after the map's pitch (tilt) finishes changing as
+  <p>Fired whenever the map's pitch (tilt) changes as.
 the result of either user interaction or methods such as <a href="#mapflyto">Map#flyTo</a>.</p>
 
 
@@ -13258,11 +13258,11 @@ the result of either user interaction or methods such as <a href="#mapflyto">Map
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:pitch'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:pitch">
+    <div class='keyline-bottom' id='map.event:pitchend'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:pitchend">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>pitch</span>
+            <span class='code strong strong truncate'>pitchend</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -13271,7 +13271,7 @@ the result of either user interaction or methods such as <a href="#mapflyto">Map
 
   
 
-  <p>Fired whenever the map's pitch (tilt) changes as.
+  <p>Fired immediately after the map's pitch (tilt) finishes changing as
 the result of either user interaction or methods such as <a href="#mapflyto">Map#flyTo</a>.</p>
 
 
@@ -16146,102 +16146,6 @@ be visible.</p>
     <div class='pad1y quiet space-top2 prose-big'>Events</div>
     <div class="clearfix">
   
-    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationend'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationend">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>trackuserlocationend</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when the Geolocate Control changes to the background state, which happens when a user changes the camera during an active position lock. This only applies when trackUserLocation is true. In the background state, the dot on the map will update with location updates but the camera will not.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationstart">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>trackuserlocationstart</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when the Geolocate Control changes to the active lock state, which happens either upon first obtaining a successful Geolocation API position for the user (a geolocate event will follow), or the user clicks the geolocate button when in the background state which uses the last known position to recenter the map and enter active lock state (no geolocate event will follow unless the users's location changes).</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
     <div class='keyline-bottom' id='geolocatecontrol.event:error'>
       <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:error">
         <div class="pad1y contain">
@@ -16308,6 +16212,54 @@ be visible.</p>
       </div>
     </div>
   
+    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationend'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationend">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>trackuserlocationend</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when the Geolocate Control changes to the background state, which happens when a user changes the camera during an active position lock. This only applies when trackUserLocation is true. In the background state, the dot on the map will update with location updates but the camera will not.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
     <div class='keyline-bottom' id='geolocatecontrol.event:geolocate'>
       <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:geolocate">
         <div class="pad1y contain">
@@ -16354,6 +16306,54 @@ be visible.</p>
         </div>
       
     </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationstart">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>trackuserlocationstart</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when the Geolocate Control changes to the active lock state, which happens either upon first obtaining a successful Geolocation API position for the user (a geolocate event will follow), or the user clicks the geolocate button when in the background state which uses the last known position to recenter the map and enter active lock state (no geolocate event will follow unless the users's location changes).</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
   
 
   
@@ -22081,9 +22081,9 @@ back to the main thread for rendering.  Should call the callback with:
     </div>
 </div>
 
-<link href='/MapAPI/cn/v0.38.0/css/docs.css' rel='stylesheet'/>
-<link href='/MapAPI/cn/v0.38.0/site.css' rel='stylesheet'/>
-<script src='/MapAPI/cn/v0.38.0/js/site.js'></script>
+<link href='/mapbox-gl-doc-cn/v0.38.0/cn/css/docs.css' rel='stylesheet'/>
+<link href='/mapbox-gl-doc-cn/v0.38.0/cn/site.css' rel='stylesheet'/>
+<script src='/mapbox-gl-doc-cn/v0.38.0/cn/js/site.js'></script>
 <script src='assets/anchor.js'></script>
 <script src='assets/site.js'></script>
 

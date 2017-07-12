@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='apple-mobile-web-app-capable' content='yes'/>
-    <link rel='shortcut icon' href='/MapAPI/latest/cn/favicon.ico' type='image/x-icon'/>
+    <link rel='shortcut icon' href='/mapbox-gl-doc-cn/latest/cn/favicon.ico' type='image/x-icon'/>
     <meta name='p:domain_verify' content='57838af58c8045c2c024bc2f9d1577f9'/>
     <meta name='twitter:site' content='@Mapbox'/>
     <meta property='og:site_name' content='Mapbox'/>
@@ -35,7 +35,7 @@
         href='https://www.mapbox.com/base/latest/base.css?v1.0'
         rel='stylesheet'/>
     
-    <link href='/MapAPI/latest/cn/css/site.css' rel='stylesheet'/>
+    <link href='/mapbox-gl-doc-cn/latest/cn/css/site.css' rel='stylesheet'/>
     <link rel='alternate' type='application/rss+xml' title='RSS' href='https://www.mapbox.com/blog/blog.rss'/>
 
     
@@ -1530,7 +1530,7 @@
                                     </div>
                                     <div id="language_cn" style="display: none;"
                                          class="flex-child opacity75 mx6 mx12-ml mx18-mxl"><a
-                                        href="/MapAPI/latest/cn/cn/"
+                                        href="/mapbox-gl-doc-cn/latest/cn/cn/"
                                         class="block txt-s txt-ms-ml txt-bold link link--white"
                                         aria-label="pricing">中文</a>
                                     </div>
@@ -2491,9 +2491,9 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:boxzoomstart'
+                                        href='#map.event:boxzoomcancel'
                                         class='block small truncate pre-open'>
-                                    ⓔ boxzoomstart
+                                    ⓔ boxzoomcancel
                                 </a></li>
                                 
                                 <li><a
@@ -2503,21 +2503,21 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:boxzoomcancel'
+                                        href='#map.event:boxzoomstart'
                                         class='block small truncate pre-open'>
-                                    ⓔ boxzoomcancel
-                                </a></li>
-                                
-                                <li><a
-                                        href='#map.event:rotatestart'
-                                        class='block small truncate pre-open'>
-                                    ⓔ rotatestart
+                                    ⓔ boxzoomstart
                                 </a></li>
                                 
                                 <li><a
                                         href='#map.event:rotate'
                                         class='block small truncate pre-open'>
                                     ⓔ rotate
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:rotatestart'
+                                        class='block small truncate pre-open'>
+                                    ⓔ rotatestart
                                 </a></li>
                                 
                                 <li><a
@@ -2533,15 +2533,15 @@
                                 </a></li>
                                 
                                 <li><a
-                                        href='#map.event:dragend'
-                                        class='block small truncate pre-open'>
-                                    ⓔ dragend
-                                </a></li>
-                                
-                                <li><a
                                         href='#map.event:drag'
                                         class='block small truncate pre-open'>
                                     ⓔ drag
+                                </a></li>
+                                
+                                <li><a
+                                        href='#map.event:dragend'
+                                        class='block small truncate pre-open'>
+                                    ⓔ dragend
                                 </a></li>
                                 
                                 <li><a
@@ -3655,10 +3655,10 @@
       </div>
     </div>
     <div class='col9 dark tabs mobile-cols pad1'><!--
-      --><a href='/MapAPI/latest/cn/api' class='col3 truncate active'>API</a><!--
-      --><a href='/MapAPI/latest/cn/style-spec' class='col3 truncate'>Style Specification</a><!--
-      --><a href='/MapAPI/latest/cn/examples' class='col3 truncate'>Examples</a><!--
-      --><a href='/MapAPI/latest/cn/plugins' class='col3 truncate'>Plugins</a>
+      --><a href='/mapbox-gl-doc-cn/latest/cn/api' class='col3 truncate active'>API</a><!--
+      --><a href='/mapbox-gl-doc-cn/latest/cn/style-spec' class='col3 truncate'>Style Specification</a><!--
+      --><a href='/mapbox-gl-doc-cn/latest/cn/examples' class='col3 truncate'>Examples</a><!--
+      --><a href='/mapbox-gl-doc-cn/latest/cn/plugins' class='col3 truncate'>Plugins</a>
     </div>
   </nav>
 </div>
@@ -3673,7 +3673,7 @@
                     <p class='space-bottom2 pad1y'>Mapbox GL JS is a JavaScript library that uses WebGL to render
                         interactive maps
                         from <a href='https://www.mapbox.com/help/define-vector-tiles'>vector tiles</a> and <a
-                                href='/MapAPI/latest/cn/style-spec'>Mapbox styles</a>.
+                                href='/mapbox-gl-doc-cn/latest/cn/style-spec'>Mapbox styles</a>.
                         It is part of the <a href='https://github.com/mapbox/mapbox-gl'>Mapbox GL ecosystem</a>, which
                         includes <a
                                 href='https://www.mapbox.com/mobile/'>Mapbox Mobile</a>, a compatible renderer written in C++ with
@@ -12606,11 +12606,11 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:boxzoomstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomstart">
+    <div class='keyline-bottom' id='map.event:boxzoomcancel'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomcancel">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>boxzoomstart</span>
+            <span class='code strong strong truncate'>boxzoomcancel</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12619,7 +12619,8 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
 
   
 
-  <p>Fired when a "box zoom" interaction starts. See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
+  <p>Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.
+See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
 
   
@@ -12724,11 +12725,11 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:boxzoomcancel'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomcancel">
+    <div class='keyline-bottom' id='map.event:boxzoomstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:boxzoomstart">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>boxzoomcancel</span>
+            <span class='code strong strong truncate'>boxzoomstart</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12737,8 +12738,7 @@ as the result of either user interaction or methods such as <a href="#mapflyto">
 
   
 
-  <p>Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.
-See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
+  <p>Fired when a "box zoom" interaction starts. See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
 
   
@@ -12784,11 +12784,11 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:rotatestart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotatestart">
+    <div class='keyline-bottom' id='map.event:rotate'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotate">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>rotatestart</span>
+            <span class='code strong strong truncate'>rotate</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12797,7 +12797,7 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
   
 
-  <p>Fired when a "drag to rotate" interaction starts. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
+  <p>Fired repeatedly during a "drag to rotate" interaction. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
 
 
   
@@ -12843,11 +12843,11 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:rotate'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotate">
+    <div class='keyline-bottom' id='map.event:rotatestart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:rotatestart">
         <div class="pad1y contain">
             <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>rotate</span>
+            <span class='code strong strong truncate'>rotatestart</span>
             <span class='quiet code space-right2'></span>
         </div>
       </div>
@@ -12856,7 +12856,7 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
 
   
 
-  <p>Fired repeatedly during a "drag to rotate" interaction. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
+  <p>Fired when a "drag to rotate" interaction starts. See <a href="#dragrotatehandler">DragRotateHandler</a>.</p>
 
 
   
@@ -13020,65 +13020,6 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       </div>
     </div>
   
-    <div class='keyline-bottom' id='map.event:dragend'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:dragend">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>dragend</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when a "drag to pan" interaction ends. See <a href="#dragpanhandler">DragPanHandler</a>.</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
-    <div>
-      
-        <div class='space-bottom0'>
-          <span class='code strong'>data</span> <code class='quiet'>({originalEvent: <a href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent">DragEvent</a>})</code>
-          
-          
-        </div>
-      
-    </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
     <div class='keyline-bottom' id='map.event:drag'>
       <div class="clearfix small pointer toggle-sibling" data-href="#map.event:drag">
         <div class="pad1y contain">
@@ -13113,6 +13054,65 @@ See <a href="#boxzoomhandler">BoxZoomHandler</a>.</p>
       
         <div class='space-bottom0'>
           <span class='code strong'>data</span> <code class='quiet'>((<a href="#mapmouseevent">MapMouseEvent</a> | <a href="#maptouchevent">MapTouchEvent</a>))</code>
+          
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='keyline-bottom' id='map.event:dragend'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#map.event:dragend">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>dragend</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when a "drag to pan" interaction ends. See <a href="#dragpanhandler">DragPanHandler</a>.</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    <div class='pad1y quiet space-top2 prose-big'>Properties</div>
+    <div>
+      
+        <div class='space-bottom0'>
+          <span class='code strong'>data</span> <code class='quiet'>({originalEvent: <a href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent">DragEvent</a>})</code>
           
           
         </div>
@@ -16146,6 +16146,54 @@ be visible.</p>
     <div class='pad1y quiet space-top2 prose-big'>Events</div>
     <div class="clearfix">
   
+    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationstart'>
+      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationstart">
+        <div class="pad1y contain">
+            <a class='rcon pin-right pad1y dark-link caret-right'></a>
+            <span class='code strong strong truncate'>trackuserlocationstart</span>
+            <span class='quiet code space-right2'></span>
+        </div>
+      </div>
+      <div class="clearfix hidden toggle-target">
+        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
+
+  
+
+  <p>Fired when the Geolocate Control changes to the active lock state, which happens either upon first obtaining a successful Geolocation API position for the user (a geolocate event will follow), or the user clicks the geolocate button when in the background state which uses the last known position to recenter the map and enter active lock state (no geolocate event will follow unless the users's location changes).</p>
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
     <div class='keyline-bottom' id='geolocatecontrol.event:error'>
       <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:error">
         <div class="pad1y contain">
@@ -16306,54 +16354,6 @@ be visible.</p>
         </div>
       
     </div>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-      </div>
-    </div>
-  
-    <div class='keyline-bottom' id='geolocatecontrol.event:trackuserlocationstart'>
-      <div class="clearfix small pointer toggle-sibling" data-href="#geolocatecontrol.event:trackuserlocationstart">
-        <div class="pad1y contain">
-            <a class='rcon pin-right pad1y dark-link caret-right'></a>
-            <span class='code strong strong truncate'>trackuserlocationstart</span>
-            <span class='quiet code space-right2'></span>
-        </div>
-      </div>
-      <div class="clearfix hidden toggle-target">
-        <section class='pad2 clearfix prose space-bottom4 fill-white contain'>
-
-  
-
-  <p>Fired when the Geolocate Control changes to the active lock state, which happens either upon first obtaining a successful Geolocation API position for the user (a geolocate event will follow), or the user clicks the geolocate button when in the background state which uses the last known position to recenter the map and enter active lock state (no geolocate event will follow unless the users's location changes).</p>
-
-
-  
-
-  
-
-  
-  
-  
-  
-  
-
-  
-
   
 
   
@@ -22081,9 +22081,9 @@ back to the main thread for rendering.  Should call the callback with:
     </div>
 </div>
 
-<link href='/MapAPI/latest/cn/css/docs.css' rel='stylesheet'/>
-<link href='/MapAPI/latest/cn/site.css' rel='stylesheet'/>
-<script src='/MapAPI/latest/cn/js/site.js'></script>
+<link href='/mapbox-gl-doc-cn/latest/cn/css/docs.css' rel='stylesheet'/>
+<link href='/mapbox-gl-doc-cn/latest/cn/site.css' rel='stylesheet'/>
+<script src='/mapbox-gl-doc-cn/latest/cn/js/site.js'></script>
 <script src='assets/anchor.js'></script>
 <script src='assets/site.js'></script>
 
